@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/untuned
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://untuned.me
+  * I am untuned (https://keybase.io/untuned) on keybase.
+  * I have a public key with fingerprint 1338 C550 AAE5 5280 0A43  2A8B 1F30 9C35 AA5E 07C1
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01012919c9ad7fdbc7bcfdbdcd524da5372b6e0de2dcdab0a660bba53f21bcedee5a0a",
+      "fingerprint": "1338c550aae552800a432a8b1f309c35aa5e07c1",
+      "host": "keybase.io",
+      "key_id": "1f309c35aa5e07c1",
+      "kid": "01012919c9ad7fdbc7bcfdbdcd524da5372b6e0de2dcdab0a660bba53f21bcedee5a0a",
+      "uid": "5f5a44232924529b0b281b956a97f819",
+      "username": "untuned"
+    },
+    "service": {
+      "hostname": "untuned.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1513816771,
+  "expire_in": 157680000,
+  "prev": "eb0ebb4192acdd9a5f356757500be6c7b969955ffdc6c50ecbc8af5d764dfdc1",
+  "seqno": 46,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.76
+Comment: https://keybase.io/crypto
+
+yMIgAnicrVJrSBRRGF1Ns8zoQUVBLwYLtE3uPO7MzkYRvX7kD4OiKLTtvmadzJl1
+Z9bWTAh6SvbGsgdJhAQRlUVpBeFmIGVGSkJUEKFITyox1DLqjtSPoJ/9+vgO55x7
+7uG7P3aELz1pFjgDL25MSyS1Jqpjvg0LkpvLBWzTMiFYLhSx4cG2UOa4oSKTCkEB
+iECUdFEnOqKaQTHRMOGDEgolhSIoaxJWGaBM4hDCAKkqwJjjhiRiwihjEAEk+AXD
+tMIsGomalsttRVkOEAgBQgxCKQAAUmQJBbBoyEAnMkQIMqARkQsLbcdT8HAYOSzH
+tDnGl9BwvH/w/3Pu2LAdNCBSFEmWdEmBko4BlgIi1qGKdM0IiLpHdFjUQsWMs2OW
+G7MYFSr8AgdLTcK8Xr2P/E3I4YtfiERt1yb2Fo4Xum7ECXo6tyziEbcyHPptEcKm
+RXmJXFHKoo5pW0JQ5Ezimp6nCEU5IKqaJvoFFo+YURYyPQbUVF4vAN47rJRbMgwY
+xoqoS4hQqiNoyFDVoAYBwEzlPemqrkNoGJSoBAJGMAkgA1JNVSjHvIodVmLZQlBR
+eU4U5p6OGbaQG4syoeJeU36KLyndNzI12bsuX/ro8X9ubv2dUb4qp3noJ3WXhF+E
+nq44WTIxkZ9S2Hnsavrg7ZuNXzO3J8idGS2vnhfM31vU3ljXsalt+uupfT9BPHDj
+fW116ogVc8b3SAdqyh/UuF+Orvn4YeSRgt6DO1ZO7r4woEzrfEL8i+O73+5aVZmc
+OHvghNO1edyEeNf1gfZ45Zj+gea5s1PlnG/oU+s2d1H/wlV5GeceF/+4urWi11//
+8tCZcIb0MOVd5+e7VRW7s1oGL12pmzSxOO3y2oaly/KmnE+51bHWzM3Mel5Wso72
+5JcYuT9Wf5+XdtA+vb2uYU5f/qQbBXuGvp/Km7kxei24b0/9ze5acqo+e+bh423O
+o8jyI9nTaNP+nc/e9P8CcvtINA==
+=NpEo
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/untuned
+
+==================================================================
