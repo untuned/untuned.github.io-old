@@ -1,0 +1,67 @@
+<?php 
+header('Access-Control-Allow-Origin: https://plug.dj'); 
+header('Content-Type: text/json'); 
+?>
+{
+   "room": "untuned",
+   "author": "untuned",
+   "icon": null,
+   "css": "https://untuned.me/plug/main.css",
+   "rules": {
+      "allowAutorespond": true,
+      "allowAutowoot": true,
+      "allowAutojoin": false,
+      "allowAutograb": true,
+      "allowSmartVote": true,
+      "allowEmotes": true,
+      "allowShowingMehs": false,
+      "forceSmartVote": false
+   },
+   "ccc": {
+      "admin": "#42a5dc",
+      "ambassador": "#89be6c",
+      "host": "#db182e",
+      "cohost": "#db182e",
+      "manager": "#AB48C6",
+      "bouncer": "#3083FF",
+      "rdj": "#F7A452",
+      "subscriber": "#c59840",
+      "silversubscriber": null,
+      "friend": null,
+      "user": null
+   },
+   "images": {
+      "background": "https://untuned.me/plug/background.jpg",
+      "playback": null,
+      "admin": "https://untuned.me/plug/admin.png",
+      "ambassador": "https://untuned.me/plug/ambassador.png",
+      "sitemoderator": "https://untuned.me/plug/sitemoderator.png",
+      "host": "https://untuned.me/plug/host.png",
+      "cohost": "https://untuned.me/plug/cohost.png",
+      "manager": "https://untuned.me/plug/manager.png",
+      "bouncer": "https://untuned.me/plug/bouncer.png",
+      "rdj": "https://untuned.me/plug/rdj.png",
+      "subscriber": null,
+      "silversubscriber": null
+   },
+   "autocomplete": {
+       "!coins":       0,
+       "!genre":       0,
+       "!info":        0,
+       "!pay":         0,
+       "!promote":     0,
+       
+       "!demote":   1000,
+       "!discord":  1000,
+       
+       "!bl":       2000,
+       "!ls":       2000,
+       "!skip":     2000,
+       
+       "!setgenre": 3000,
+       
+       "!staff":    4000,
+       
+       "!ping":     694201337
+   }
+}

@@ -1,0 +1,60 @@
+/* UntunedBOT (Bot) 29949924 */
+
+#user-lists .list .user.id-29949924 .name:after,
+#user-rollover.id-29949924 .meta .username:after,
+#chat [data-cid^='29949924-'] .un:after {
+    content: "Bot";
+    margin-left: 5px;
+    background: rgba(0, 0, 0, .3);
+    padding: 0px 5px;
+    border: 1px solid #db182e;
+    border-radius: 5px;
+    color: #ccc;
+    font-size: 11px;
+}
+
+
+/* GregTunes (VIP) 4305920 */
+
+#user-lists .list .user.id-4305920 .name:after,
+#user-rollover.id-4305920 .meta .username:after,
+#chat [data-cid^='4305920-'] .un:after {
+    content: "VIP";
+    margin-left: 5px;
+    background: rgba(0, 0, 0, .3);
+    padding: 0px 5px;
+    border: 1px solid #2cc4d1;
+    border-radius: 5px;
+    color: #ccc;
+    font-size: 11px;
+}
+
+
+/* Isebella (VIP) 6464162 */
+
+#user-lists .list .user.id-6464162 .name:after,
+#user-rollover.id-6464162 .meta .username:after,
+#chat [data-cid^='6464162-'] .un:after {
+    content: "VIP";
+    margin-left: 5px;
+    background: rgba(0, 0, 0, .3);
+    padding: 0px 5px;
+    border: 1px solid #2cc4d1;
+    border-radius: 5px;
+    color: #ccc;
+    font-size: 11px;
+}
+
+/* Darryan(ĐⱧ101) (VIP) 15684973 */
+#user-lists .list .user.id-15684973 .name:after,
+#user-rollover.id-15684973 .meta .username:after,
+#chat [data-cid^='15684973-'] .un:after {
+    content: "VIP";
+    margin-left: 5px;
+    background: rgba(0, 0, 0, .3);
+    padding: 0px 5px;
+    border: 1px solid #2cc4d1;
+    border-radius: 5px;
+    color: #ccc;
+    font-size: 11px;
+}
