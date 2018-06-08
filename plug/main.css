@@ -1199,3 +1199,38 @@ body {
 #user-lists .list.room .user.id-4701536 .icon-chat-ambassador {
     background: url("https://untuned.me/plug/manager.png") !important;
 }
+
+/*---[[[UNTUNED-(PROMOTER)-ROLE-FIX]]]---*/
+
+#user-rollover.id-4224900 > .info > .role span {
+    text-indent: -9999px;
+    line-height: 0;
+}
+
+#user-rollover.id-4224900 > .info > .role span:after {
+    text-indent: 0;
+    content: 'Host';
+    display: block;
+    line-height: initial;
+    color: #db182e;
+}
+
+#user-rollover.id-4224900 > .info > .role:hover span:after {
+    text-indent: 0;
+    content: 'Promoter';
+    display: block;
+    line-height: initial;
+    color: #1abc9c;
+}
+
+#user-rollover.id-4224900 > .info > .role .icon { 
+    background: url("https://untuned.me/plug/host.png") !important; 
+}
+
+#user-rollover.id-4224900 > .info > .role:hover .icon { 
+    background: url("https://untuned.me/plug/promoter.png") !important; 
+}
+
+#user-lists .list.room .user.id-4224900 .icon-chat-promoter {
+    background: url("https://untuned.me/plug/host.png") !important;
+}
