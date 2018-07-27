@@ -158,10 +158,6 @@ body {
 	color: #eee !important;
 }
 
-.icon {
-	background-image: url("https://i.imgur.com/N6wm8u9.png");
-}
-
 .nav-left__item.selected .nav-left__item-icon,
 .nav-left__item.selected .nav-left__item-text {
 	color: #3d9cde !important;
@@ -808,7 +804,7 @@ body {
 /*#####[HOST]#####*/
 
 .icon-chat-host {
-	background: url("https://i.imgur.com/zIAEqAk.png");
+	background: url("https://untuned.us/plug/host.png");
 }
 
 .icon-chat-host+span,
@@ -827,7 +823,7 @@ body {
 /*#####[CO-HOSTS]#####*/
 
 .icon-chat-cohost {
-	background: url("https://i.imgur.com/zIAEqAk.png");
+	background: url("https://untuned.us/plug/cohost.png");
 }
 
 .icon-chat-cohost+span,
@@ -839,7 +835,7 @@ body {
 /*#####[MANAGER]#####*/
 
 .icon-chat-manager {
-	background: url("https://i.imgur.com/snaSrTN.png");
+	background: url("https://untuned.us/plug/manager.png");
 }
 
 .icon-chat-manager+span,
@@ -857,7 +853,7 @@ body {
 /*#####[BOUNCER]#####*/
 
 .icon-chat-bouncer {
-	background: url("https://i.imgur.com/X4rU7r5.png");
+	background: url("https://untuned.us/plug/bouncer.png");
 }
 
 .icon-chat-bouncer+span,
@@ -872,10 +868,10 @@ body {
 }
 
 
-/*#####[DJ]#####*/
+/*#####[RDJ]#####*/
 
 .icon-chat-dj {
-	background: url("https://i.imgur.com/HIUTGdj.png");
+	background: url("https://untuned.us/plug/rdj.png");
 	background-position: 0 0 !important;
 }
 
@@ -895,7 +891,7 @@ body {
 
 .icon-chat-subscriber,
 #user-rollover .meta.subscriber .status i {
-	background: url("https://i.imgur.com/MqlDbT7.png");
+	background: url("https://untuned.us/plug/sub.png");
 }
 
 #user-rollover .meta .status i {
