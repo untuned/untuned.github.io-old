@@ -1,37 +1,37 @@
-/* @import url("https://untuned.me/plug/vips.css"); */
-@import url("https://untuned.me/plug/ranks.css");
+/* @import url("https://untuned.us/plug/vips.css"); */
+@import url("https://untuned.us/plug/ranks.css");
 
 body {
-    color: #eee;
-    opacity: 1;
+	color: #eee;
+	opacity: 1;
 }
 
 .left-side-wrapper {
-    background-position-x: 50px !important;
+	background-position-x: 50px !important;
 }
 
 .community .community__name {
-    color: #eee !important;
+	color: #eee !important;
 }
 
 #app .logo-wrapper .back-button {
-    opacity: 1 !important;
+	opacity: 1 !important;
 }
 
 #app .logo-wrapper .back-button:hover {
-    opacity: .6 !important;
+	opacity: .6 !important;
 }
 
 .community .community__top,
 #header-panel-bar.right-meta,
 .bottom__playback-meta,
 .bottom__playback-controls {
-    background: linear-gradient(hsl(210, 10%, 20%), hsl(210, 10%, 10%));
+	background: linear-gradient(hsl(210, 10%, 20%), hsl(210, 10%, 10%));
 }
 
 #room-settings .general-settings .option button.off {
-    background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%));
-    box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.4);
+	background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%));
+	box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.4);
 }
 
 .right-meta .header-panel-button.selected,
@@ -40,68 +40,163 @@ body {
 #playlist-menu .menu .row.selected,
 #room-settings .general-settings button.off,
 #room-settings .general-settings .option.enabled button.on {
-    background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%));
-    box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.4);
+	background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%));
+	box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.4);
+}
+
+#playlist-panel.playlist--override #media-panel .header .playlist-buttons-container .button#playlist-activate-button {
+	border-radius: 0px !important;
+	border-radius: 0px !important;
+	background: none !important;
+	border-color: #0f7ccb !important;
+	color: #0f7ccb !important;
+}
+
+#playlist-panel.playlist--override #media-panel .header .playlist-buttons-container .button#playlist-activate-button.active {
+	border-color: #0f7ccb !important;
+	color: #0f7ccb !important;
+	opacity: 1;
+	border-radius: 0px !important;
+	background: none !important;
+}
+
+#playlist-panel.playlist--override #media-panel .media-list .jspContainer .jspPane .container-fluid .row.now-playing {
+	border-bottom: none !important;
+}
+
+.user-content .header span,
+.user-content.profile .points .label,
+.user-content.profile .meta .joined,
+.user-content.profile .meta .link .label,
+#user-settings .container label {
+	font-weight: 600 !important;
+	color: #0f7ccb !important;
+}
+
+#user-view .user-content.profile .points .pp .pp-points .value {
+	margin-left: 5px !important;
+	top: 15px !important;
+}
+
+#user-view #user-settings.user-content .account .container button,
+#user-settings .container button:hover,
+#user-view #user-settings.user-content .account .container .subscribe-button,
+.subscribe-button:hover {
+	background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
+	box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.4);
+}
+
+#user-view #user-settings.user-content .account .container .subscribe-button i,
+#user-view #user-settings.user-content .account .container .subscribe-button {
+	color: #fff !important;
+}
+
+#user-settings .container .item span,
+#user-settings .container .cap .title,
+#user-settings .container .refresh {
+	color: #fff !important;
+}
+
+.user-content.profile .points i {
+	top: 15px !important;
+}
+
+.user-content.profile .meta .joined {
+	margin-left: 0px !important;
+}
+
+#user-view .user-content.profile .points .pp .pp-points {
+	background: none !important;
+}
+
+#playlist-panel.playlist--override #media-panel .header .playlist-buttons-container .button#playlist-activate-button.active>i {
+	color: #0f7ccb !important;
+}
+
+#playlist-panel.playlist--override #media-panel #playlist-import-panel .import-box .button {
+	border-radius: 0px !important;
+	color: #fff !important;
+}
+
+#playlist-panel.playlist--override #media-panel .header .import-button {
+	font-size: 10px !important;
+	border-radius: 0px !important;
+	font-weight: 300 !important;
+	color: #fff !important;
+}
+
+#playlist-panel.playlist--override #media-panel #playlist-import-panel .import-box .button i {
+	display: none !important;
+}
+
+.dialog.no-submit .button.submit {
+	background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
+	border-left: 1px solid #22262a;
+	color: #fff !important;
 }
 
 .header-panel-button {
-    border-right: 0px;
-    border-left: 1px solid #0a0a0a;
+	border-right: 0px;
+	border-left: 1px solid #0a0a0a;
 }
 
 .community__playlist--desktop[data-song] .icon-playlist {
-    color: #fff;
+	color: #fff;
 }
 
 .btn-no-dj-secondary {
-    border-radius: 50px;
-    background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%));
-    box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.4);
+	border-radius: 50px;
+	background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%));
+	box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.4);
 }
 
 #rs-eta {
-    color: #fff !important;
+	color: #fff !important;
 }
 
 #playlist-activate-button span {
-    color: #eee !important;
+	color: #eee !important;
+}
+
+.icon {
+	background-image: url("https://i.imgur.com/N6wm8u9.png");
 }
 
 .nav-left__item.selected .nav-left__item-icon,
 .nav-left__item.selected .nav-left__item-text {
-    color: #3d9cde !important;
+	color: #3d9cde !important;
 }
 
 .community .community__song-playing-progress .progress .progress-bar,
 [data-view=room] .bottom__playback-controls .volume-bar .progress .progress-bar {
-    background-color: #3d9cde !important;
+	background-color: #3d9cde !important;
 }
 
 .nav-left__item.selected {
-    border-left: 2px solid #3d9cde !important;
+	border-left: 2px solid #3d9cde !important;
 }
 
 .nav-left__item {
-    color: #eee !important;
-    opacity: 1 !important;
+	color: #eee !important;
+	opacity: 1 !important;
 }
 
 .community .friends .list .row {
-    border-bottom: 1px solid rgba(255, 255, 255, .1);
+	border-bottom: 1px solid rgba(255, 255, 255, .1);
 }
 
 .nav-left__item:hover {
-    background: linear-gradient(hsla(220, 10%, 10%, 0.5), hsla(220, 10%, 12%, 0.5)) !important;
-    opacity: 1;
-    border-left: 2px solid #3d9cde !important;
+	background: linear-gradient(hsla(220, 10%, 10%, 0.5), hsla(220, 10%, 12%, 0.5)) !important;
+	opacity: 1;
+	border-left: 2px solid #3d9cde !important;
 }
 
 .nav-left .download-app {
-    background: linear-gradient(hsla(220, 10%, 10%, 0.5), hsla(220, 10%, 12%, 0.5)) !important;
+	background: linear-gradient(hsla(220, 10%, 10%, 0.5), hsla(220, 10%, 12%, 0.5)) !important;
 }
 
 .nav-left__item.selected {
-    background: linear-gradient(hsla(220, 10%, 10%, 0.5), hsla(220, 10%, 12%, 0.5)) !important;
+	background: linear-gradient(hsla(220, 10%, 10%, 0.5), hsla(220, 10%, 12%, 0.5)) !important;
 }
 
 .community #chat,
@@ -115,18 +210,18 @@ body {
 .user-profile-dropdown,
 .user-level-dropdown,
 .nav-left {
-    background: rgb(30, 35, 40);
+	background: rgb(30, 35, 40);
 }
 
 .community .room-controls--desktop {
-    background: rgb(30, 35, 40, 0.7) !important;
+	background: rgb(30, 35, 40, 0.7) !important;
 }
 
 .community #chat #chat-header,
 #user-lists .header,
 #waitlist .header {
-    background: rgba(30, 35, 40, 0.7);
-    border-bottom: #1c1f25 3px solid !important;
+	background: rgba(30, 35, 40, 0.7);
+	border-bottom: #1c1f25 3px solid !important;
 }
 
 #chat-messages::-webkit-scrollbar,
@@ -135,8 +230,8 @@ body {
 #grab-rs-list::-webkit-scrollbar,
 #meh-rs-list::-webkit-scrollbar,
 .dialog::-webkit-scrollbar {
-    width: 7px !important;
-    box-shadow: inset -1px 0 7px hsla(0, 0%, 0%, 0.7);
+	width: 7px !important;
+	box-shadow: inset -1px 0 7px hsla(0, 0%, 0%, 0.7);
 }
 
 #chat-messages::-webkit-scrollbar-thumb,
@@ -146,184 +241,185 @@ body {
 #meh-rs-list::-webkit-scrollbar-thumb,
 .dialog::-webkit-thumb,
 .jspDrag {
-    background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
+	background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
 }
 
 .jspTrack {
-    box-shadow: inset -1px 0 10px hsla(0, 0%, 20%, 1);
+	box-shadow: inset -1px 0 10px hsla(0, 0%, 20%, 1);
 }
 
 #chat-input-field {
-    color: #eee !important;
-    font-weight: bold;
+	color: #eee !important;
+	font-weight: bold;
 }
 
 #chat-input-field:focused {
-    color: red !important;
-    background: red !important;
+	color: red !important;
+	background: red !important;
 }
 
-/**********************/
-/*---[[[MESSAGES]]]---*/
-/**********************/
+
+/*### [message] ###*/
 
 #chat .cm {
-    animation: fadein 0.2s;
+	animation: fadein 0.2s;
 }
 
 #chat .cm {
-    background: linear-gradient(hsla(220, 10%, 20%, 0.5), hsla(220, 10%, 15%, 0.5));
-    box-shadow: inset 1px 1px 0 hsla(220, 10%, 20%, 0.8);
+	background: linear-gradient(hsla(220, 10%, 20%, 0.5), hsla(220, 10%, 15%, 0.5));
+	box-shadow: inset 1px 1px 0 hsla(220, 10%, 20%, 0.8);
 }
 
 #chat .cm.message:nth-child(odd) {
-    background: linear-gradient(hsla(220, 10%, 10%, 0.5), hsla(220, 10%, 12%, 0.5));
-    box-shadow: inset 1px 1px 0 hsla(220, 10%, 5%, 0.8);
-    color: #ccc;
+	background: linear-gradient(hsla(220, 10%, 10%, 0.5), hsla(220, 10%, 12%, 0.5));
+	box-shadow: inset 1px 1px 0 hsla(220, 10%, 5%, 0.8);
+	color: #ccc;
 }
 
 #chat .cm.message .timestamp {
-    color: #818285;
+	color: #818285;
 }
 
 #chat .cm .badge-box {
-    background: transparent !important;
+	background: transparent !important;
 }
 
 #chat .cm .delete-button {
-    border-radius: 4px;
-    background: linear-gradient(hsl(0, 0%, 30%), hsl(0, 0%, 40%));
-    box-shadow: inset 0 0 0 1px hsl(0, 0%, 50%);
+	border-radius: 4px;
+	background: linear-gradient(hsl(0, 0%, 30%), hsl(0, 0%, 40%));
+	box-shadow: inset 0 0 0 1px hsl(0, 0%, 50%);
 }
 
 #chat .cm .delete-button:hover {
-    background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%));
-    box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.4);
-    color: #fff;
+	background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%));
+	box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.4);
+	color: #fff;
 }
 
-/**********************/
-/*---[[[MENTIONS]]]---*/
-/**********************/
+
+/* Mentions */
 
 #chat .cm.mention.role-host {
-    background: linear-gradient(hsla(200, 100%, 30%, 0.8), hsla(200, 100%, 20%, 0.8)), linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) !important;
-    box-shadow: inset 0 0 0 1px hsl(200, 50%, 50%);
+	background: linear-gradient(hsla(200, 100%, 30%, 0.8), hsla(200, 100%, 20%, 0.8)), linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) !important;
+	box-shadow: inset 0 0 0 1px hsl(200, 50%, 50%);
 }
 
 #chat .cm.mention.role-host .name,
 #chat .cm.mention.role-host .timestamp {
-    color: hsl(200, 100%, 50%);
+	color: hsl(200, 100%, 50%);
 }
 
 #chat .cm.mention.role-cohost {
-    background: linear-gradient(hsla(210, 100%, 30%, 0.8), hsla(210, 100%, 20%, 0.8)), linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) !important;
-    box-shadow: inset 0 0 0 1px hsl(210, 50%, 50%);
+	background: linear-gradient(hsla(210, 100%, 30%, 0.8), hsla(210, 100%, 20%, 0.8)), linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) !important;
+	box-shadow: inset 0 0 0 1px hsl(210, 50%, 50%);
 }
 
 #chat .cm.mention.role-cohost .name,
 #chat .cm.mention.role-cohost .timestamp {
-    color: hsl(210, 100%, 50%);
+	color: hsl(210, 100%, 50%);
 }
 
 #chat .cm.mention.role-manager {
-    background: linear-gradient(hsla(350, 85%, 20%, 0.8), hsla(350, 85%, 10%, 0.8)), linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) !important;
-    box-shadow: inset 0 0 0 1px hsl(350, 50%, 50%);
+	background: linear-gradient(hsla(350, 85%, 20%, 0.8), hsla(350, 85%, 10%, 0.8)), linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) !important;
+	box-shadow: inset 0 0 0 1px hsl(350, 50%, 50%);
 }
 
 #chat .cm.mention.role-manager .name,
 #chat .cm.mention.role-manager .timestamp {
-    color: #E15;
+	color: #E15;
 }
 
 #chat .cm.mention.role-bouncer {
-    background: linear-gradient(hsla(354, 100%, 20%, 0.8), hsla(354, 100%, 10%, 0.8)), linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) !important;
-    box-shadow: inset 0 0 0 1px hsl(354, 50%, 50%);
+	background: linear-gradient(hsla(354, 100%, 20%, 0.8), hsla(354, 100%, 10%, 0.8)), linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) !important;
+	box-shadow: inset 0 0 0 1px hsl(354, 50%, 50%);
 }
 
 #chat .cm.mention.role-bouncer .name,
 #chat .cm.mention.role-bouncer .timestamp {
-    color: #F45;
+	color: #F45;
 }
 
 #chat .cm.mention.role-dj {
-    background: linear-gradient(hsla(20, 100%, 30%, 0.8), hsla(20, 100%, 20%, 0.8)), linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) !important;
-    box-shadow: inset 0 0 0 1px hsl(20, 50%, 50%);
+	background: linear-gradient(hsla(20, 100%, 30%, 0.8), hsla(20, 100%, 20%, 0.8)), linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) !important;
+	box-shadow: inset 0 0 0 1px hsl(20, 50%, 50%);
 }
 
 #chat .cm.mention.role-dj .name,
 #chat .cm.mention.role-dj .timestamp {
-    color: hsl(20, 100%, 60%);
+	color: hsl(20, 100%, 60%);
 }
 
 #chat .cm.mention.role-subscriber {
-    background: linear-gradient(hsla(40, 100%, 30%, 0.8), hsla(40, 100%, 20%, 0.8)), linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) !important;
-    box-shadow: inset 0 0 0 1px hsl(30, 50%, 50%);
+	background: linear-gradient(hsla(40, 100%, 30%, 0.8), hsla(40, 100%, 20%, 0.8)), linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) !important;
+	box-shadow: inset 0 0 0 1px hsl(30, 50%, 50%);
 }
 
 #chat .cm.mention.role-subscriber .name,
 #chat .cm.mention.role-subscriber .timestamp,
 #user-rollover .meta.subscriber .status span {
-    color: hsl(40, 100%, 60%);
+	color: hsl(40, 100%, 60%);
 }
 
 #chat .cm.mention {
-    background: linear-gradient(hsla(77, 100%, 20%, 0.8), hsla(77, 100%, 11%, 0.8)), linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) !important;
-    box-shadow: inset 0 0 0 1px hsl(77, 100%, 30%);
-    border: none !important;
+	background: linear-gradient(hsla(77, 100%, 20%, 0.8), hsla(77, 100%, 11%, 0.8)), linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) !important;
+	box-shadow: inset 0 0 0 1px hsl(77, 100%, 30%);
+	border: none !important;
 }
 
 #chat .cm.mention .name,
 #chat .cm.mention .timestamp {
-    color: hsl(77, 100%, 50%);
+	color: hsl(77, 100%, 50%);
 }
 
 #chat .cm.mention .msg .from .un {
-    color: hsl(77, 100%, 40%);
+	color: hsl(77, 100%, 40%);
 }
 
 #chat .cm.mention .msg {
-    /*fix RCS*/
-    background: none !important;
+	/*fix RCS*/
+	background: none !important;
 }
 
+
+/*--[BOT]--*/
+
 #chat .cm.emote {
-    background: linear-gradient(hsla(219, 100%, 20%, 0.8), hsla(219, 100%, 10%, 0.8)), linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) !important;
-    border-left: none !important;
-    text-align: left;
-    box-shadow: inset 0 0 0 1px hsla(220, 100%, 50%, 0.5);
-    border: none !important;
+	background: linear-gradient(hsla(219, 100%, 20%, 0.8), hsla(219, 100%, 10%, 0.8)), linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) !important;
+	border-left: none !important;
+	text-align: left;
+	box-shadow: inset 0 0 0 1px hsla(220, 100%, 50%, 0.5);
+	border: none !important;
 }
 
 #chat .cm.emote .un,
 #chat .cm.emote .timestamp {
-    color: hsl(210, 100%, 60%) !important;
+	color: hsl(210, 100%, 60%) !important;
 }
 
 #chat .cm.emote i {
-    display: inline !important;
+	display: inline !important;
 }
 
 #chat .emote .text {
-    font-style: oblique !important;
+	font-style: oblique !important;
 }
 
 .fa-thumbs-up:before {
-    content: "";
+	content: "";
 }
 
 .community .room-controls--desktop__item .btn-like.clicked {
-    color: #92ac3a;
-    opacity: 1;
+	color: #92ac3a;
+	opacity: 1;
 }
 
 .fa-thumbs-down:before {
-    content: "";
+	content: "";
 }
 
 .community .room-controls--desktop__item .btn-meh.clicked {
-    color: #c52c39;
-    opacity: 1;
+	color: #c52c39;
+	opacity: 1;
 }
 
 .community .community__info-item,
@@ -333,7 +429,7 @@ body {
 .community .bottom__playback-controls--desktop .community__player-item.history .plugdjfont,
 .community .bottom__playback-controls--desktop .community__player-item.share-song-trigger .fa,
 .community .bottom__playback-controls--desktop .community__player-item.share-song-trigger .plugdjfont {
-    opacity: 1;
+	opacity: 1;
 }
 
 .community .community__info-item:hover,
@@ -341,21 +437,20 @@ body {
 .community .room-controls--desktop__item:hover,
 .community .bottom__playback-controls--desktop .community__player-item.share-song-trigger:hover,
 .community .bottom__playback-controls--desktop .community__player-item.history:hover {
-    opacity: .6
+	opacity: .6
 }
 
 .community .room-controls--desktop {
-    border: 1px solid #0575c4;
+	border: 1px solid #0575c4;
 }
 
-/***********************/
-/*---[[[USER MENU]]]---*/
-/***********************/
+
+/*--[user-menu]--*/
 
 #user-menu,
 #room-settings-menu,
 #playlist-menu {
-    background: linear-gradient(to right, hsla(210, 10%, 40%, 0), hsla(210, 10%, 50%, 0.2));
+	background: linear-gradient(to right, hsla(210, 10%, 40%, 0), hsla(210, 10%, 50%, 0.2));
 }
 
 #user-view,
@@ -364,58 +459,58 @@ body {
 #media-panel,
 #playlist-panel,
 #history-panel {
-    background: linear-gradient(hsla(210, 10%, 7%, 0.9), hsla(210, 10%, 5%, 0.9)) !important;
+	background: linear-gradient(hsla(210, 10%, 7%, 0.9), hsla(210, 10%, 5%, 0.9)) !important;
+}
+
+#dashboard .tab-menu button,
+#dashboard .tab-menu button:last-child {
+	width: 100% !important;
+	border-bottom: none !important;
+	padding: 0 !important;
 }
 
 #user-menu .item:hover,
 #room-settings-menu .item:hover {
-    background: linear-gradient(hsla(205, 100%, 40%, 0.6), hsla(205, 100%, 30%, 0.6));
-    box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.2);
+	background: linear-gradient(hsla(205, 100%, 40%, 0.6), hsla(205, 100%, 30%, 0.6));
+	box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.2);
 }
 
 #user-menu .item.selected,
 #room-settings-menu .item.selected {
-    background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%));
-    box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.4);
+	background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%));
+	box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.4);
 }
 
 #the-user-profile .notifications.section .row {
-    border-radius: 10px;
-    background: linear-gradient(hsl(210, 100%, 20%), hsl(210, 100%, 10%));
-}
-
-#user-settings .container button:hover {
-    background: linear-gradient(hsl(10, 80%, 30%), hsl(0, 80%, 20%));
-}
-
-.subscribe-button:hover {
-    background: linear-gradient(hsl(40, 70%, 30%), hsl(40, 70%, 20%));
+	border-radius: 10px;
+	background: linear-gradient(hsl(210, 100%, 20%), hsl(210, 100%, 10%));
 }
 
 .tab-menu .selected {
-    background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
-    box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.4) !important;
+	background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
+	box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.4) !important;
 }
 
 #dialog-user-role .role-menu:hover {
-    border-radius: 10px 10px 0 0;
-    font-weight: normal;
+	border-radius: 10px 10px 0 0;
+	font-weight: normal;
 }
 
 .dropdown dt .level {
-    color: #eee !important;
+	color: #eee !important;
 }
 
 .dropdown dd,
 #chat-suggestion,
 #dialog-user-role .role-menu .menu ul li,
 #search-suggestion li,
-#dialog-restricted-media .row.selected {
-    background: hsla(210, 10%, 10%, 0.8) !important;
+#dialog-restricted-media .row.selected,
+{
+	background: hsla(210, 10%, 10%, 0.8) !important;
 }
 
 #dialog-user-role .role-menu .menu ul li {
-    border-color: hsla(210, 10%, 8%, 0.8);
+	border-color: hsla(210, 10%, 8%, 0.8);
 }
 
 #user-menu .count,
@@ -424,9 +519,9 @@ body {
 .request-count,
 .friends .header i,
 .community .user-profile__notifications {
-    background: radial-gradient(hsl(215, 100%, 50%), hsl(210, 100%, 30%)) !important;
-    box-shadow: inset 0 0 10px hsl(200, 100%, 50%);
-    text-shadow: 0 0 3px #000;
+	background: radial-gradient(hsl(215, 100%, 50%), hsl(210, 100%, 30%)) !important;
+	box-shadow: inset 0 0 10px hsl(200, 100%, 50%);
+	text-shadow: 0 0 3px #000;
 }
 
 #user-menu .selected .count,
@@ -434,157 +529,147 @@ body {
 #friends-button.selected span,
 #user-friends .requests.selected span,
 .friends .header:hover i {
-    background: radial-gradient(hsl(210, 10%, 20%), hsl(0, 0%, 0%)) !important;
-    box-shadow: inset 0 0 1px #000;
-    font-weight: bold;
+	background: radial-gradient(hsl(210, 10%, 20%), hsl(0, 0%, 0%)) !important;
+	box-shadow: inset 0 0 1px #000;
+	font-weight: bold;
 }
 
 .grid .cell {
-    box-shadow: 0 0 10px #000;
+	box-shadow: 0 0 10px #000;
 }
 
 .grid .cell,
 .user-content .badges .cell,
 #user-store .misc .grid .cell .title-bar {
-    background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
+	background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
 }
 
 .grid .cell .bar,
 .grid .cell .meta,
 #user-friends .row {
-    background: rgb(30, 35, 40) !important;
+	background: rgb(30, 35, 40) !important;
 }
 
 .grid .cell .meta .host {
-    text-align: center;
-    top: 6px;
-    color: #eee !important;
+	text-align: center;
+	top: 6px;
+	color: #eee !important;
 }
 
 .grid .cell .meta .join {
-    background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
-    border: none !important;
+	background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
+	border: none !important;
 }
 
 .communities .grid .cell .meta .join .label {
-    text-align: center;
-    color: #eee !important;
+	text-align: center;
+	color: #eee !important;
 }
 
 .communities .grid .cell .meta .join i {
-    display: none;
+	display: none;
 }
 
 #user-view #user-menu {
-    border-left: #1c1f25 3px solid !important;
-    border-right: #1c1f25 3px solid !important;
+	border-left: #1c1f25 3px solid !important;
+	border-right: #1c1f25 3px solid !important;
 }
 
 #user-inventory .badges .grid .cell {
-    background: rgb(30, 35, 40) !important;
+	background: rgb(30, 35, 40) !important;
 }
 
 .communities .grid .cell:hover>.meta .room,
 .communities .grid .cell:hover>.meta .now-playing,
 .communities .grid .cell .meta .room,
 .communities .grid .cell.no-media .now-playing {
-    text-align: center;
+	text-align: center;
 }
 
 .communities .grid .cell .bar {
-    border-bottom: #1c1f25 3px solid !important;
+	border-bottom: #1c1f25 3px solid !important;
 }
 
 .communities .grid .cell:hover>.meta .now-playing {
-    margin-top: 20px !important;
+	margin-top: 20px !important;
 }
 
 .user-content.communities .grid .cell,
 .user-content .grid .cell {
-    box-shadow: 0 0 10px #000 !important;
+	box-shadow: 0 0 10px #000 !important;
 }
 
 .communities .grid .cell .meta {
-    border-top: #1c1f25 3px solid !important;
+	border-top: #1c1f25 3px solid !important;
 }
 
 #user-view #user-menu .item .label {
-    color: #eee !important;
+	color: #eee !important;
 }
 
 .communities .grid .cell .meta .now-playing i {
-    display: none;
+	display: none;
 }
 
 .user-content .grid .cell .top {
-    background: rgb(30, 35, 40) !important;
+	background: rgb(30, 35, 40) !important;
 }
 
 .user-content.communities button {
-    background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
-    box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.4);
+	background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
+	box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.4);
 }
 
 .grid .cell .bar .favorite.selected {
-    background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
-    box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.4);
+	background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
+	box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.4);
 }
 
 .grid .cell .bar .favorite.selected .icon-grab {
-    background-position: -35px -280px;
+	background-position: -35px -280px;
 }
 
 #user-friends .row {
-    box-shadow: 0 0 10px #000;
+	box-shadow: 0 0 10px #000;
 }
 
 #user-friends .row .positive {
-    background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
+	background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
 }
 
 #user-friends .row .positive:hover {
-    background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
-    box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.4);
+	background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
+	box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.4);
 }
 
 #user-friends .row .negative {
-    background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
+	background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
 }
 
 #user-friends .row .negative:hover {
-    background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
-    box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.4);
+	background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
+	box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.4);
 }
 
 .user-content .avatars .cell:hover .top,
 .user-content .avatars .cell.selected .top {
-    background: rgb(30, 35, 40) !important;
-    border: 1px solid rgb(1, 91, 158);
+	background: rgb(30, 35, 40) !important;
+	border: 1px solid rgb(1, 91, 158);
 }
 
 .dialog {
-    background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
-    box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.4) !important;
+	background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
+	box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.4) !important;
 }
 
-#playlist-edit-button,
-#playlist-shuffle-button,
-#playlist-delete-button,
-#playlist-import,
-#playlist-create,
 .dialog-frame .button.submit,
 .rs .button.submit,
 .media-list .row.now-playing,
 #playlist-activate-button {
-    background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
-    border-left: 1px solid #22262a;
+	background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
+	border-left: 1px solid #22262a;
 }
 
-#playlist-edit-button:hover,
-#playlist-shuffle-button:hover,
-#playlist-delete-button:hover,
-#playlist-import:hover,
-#playlist-create:hover,
 .dialog-frame .button.submit:hover,
 .rs .button.submit:hover,
 .media-list .row.now-playing:hover,
@@ -597,335 +682,334 @@ body {
 #playlist-import-panel .button:hover,
 #media-panel .header .import-button:hover,
 .btn-no-dj-secondary:hover {
-    box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.4) !important;
+	box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.4) !important;
+}
+
+.playlist-buttons-content #playlist-create.button,
+.playlist-buttons-content #playlist-import.button {
+	border: 1px solid #0f7ccb;
+	border-radius: 0px !important;
 }
 
 #import-youtube .button span {
-    top: 8px !important;
-    font-size: 13px !important;
+	top: 8px !important;
+	font-size: 13px !important;
 }
 
 #playlist-import-panel .button,
 #media-panel .header .import-button {
-    background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
+	background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
 }
 
 .media-list .row.selected {
-    background: rgba(0, 137, 255, 0.38823529411764707) !important;
+	background: rgba(0, 137, 255, 0.38823529411764707) !important;
 }
 
-.media-list .actions,
 #media-panel .header .back {
-    background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
+	background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
+}
+
+.media-list .actions {
+	background: none !important;
 }
 
 .media-list .selected .actions {
-    background: #111317;
+	background: none !important;
 }
 
-.action.edit,
-.action.related,
-.action.move-to-bottom,
-.action.move-to-top,
-.action.delete {
-    border-left: 1px solid #22262a !important;
+#playlist-panel.playlist--override #playlist-menu .menu .row .activate-button i.active {
+	color: #fff !important;
 }
 
 #search {
-    background: rgb(30, 35, 40) !important;
+	background: rgb(30, 35, 40) !important;
 }
 
 .user-content .badges .cell:hover,
 #user-store .badges .cell:hover,
 .user-content .badges .cell.selected {
-    border: 1px solid rgb(1, 91, 158);
+	border: 1px solid rgb(1, 91, 158);
 }
 
 .grid .cell .top .expires,
 .grid .cell .top .prices,
 #the-user-profile .badge-box,
 #media-panel {
-    background: transparent !important;
+	background: transparent !important;
 }
 
 .grid .cell .top .expires span {
-    color: hsl(30, 100%, 50%) !important;
+	color: hsl(30, 100%, 50%) !important;
 }
 
 #the-user-profile .blurb .box {
-    background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
-    box-shadow: inset 0 0 5px 1px hsla(0, 0%, 100%, 0.4);
+	background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
+	box-shadow: inset 0 0 5px 1px hsla(0, 0%, 100%, 0.4);
 }
 
 #the-user-profile .blurb .arrow-up {
-    border-bottom: 6px solid hsl(210, 100%, 25%);
+	border-bottom: 6px solid hsl(210, 100%, 25%);
 }
 
 #the-user-profile .experience .bar,
 #footer-user .info .meta .bar {
-    background: rgb(30, 35, 40) !important;
+	background: rgb(30, 35, 40) !important;
 }
 
 #the-user-profile .experience .bar .progress,
 #footer-user .info .meta .bar .progress {
-    background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
-    box-shadow: 0 0 10px hsl(205, 100%, 50%);
+	background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
+	box-shadow: 0 0 10px hsl(205, 100%, 50%);
 }
 
 #the-user-profile .experience .bar .value,
 #footer-user .info .meta .bar .value {
-    text-shadow: 0 0 3px black;
+	text-shadow: 0 0 3px black;
 }
 
 #playlist-menu .menu .row .count {
-    color: #fff;
+	color: #fff;
 }
 
 .rcspdjheader {
-    background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
-    box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.4);
-    height: 30px !important;
+	background: linear-gradient(hsl(205, 100%, 40%), hsl(205, 100%, 30%)) !important;
+	box-shadow: inset 0 0 10px 1px hsla(0, 0%, 100%, 0.4);
+	height: 30px !important;
 }
 
 .rcspdjheader span {
-    color: #eee !important;
-    top: 7px !important;
+	color: #eee !important;
+	top: 7px !important;
 }
 
 .communities .grid .cell .meta .host {
-    margin-top: 6px !important;
+	margin-top: 6px !important;
 }
 
 .btn-no-dj-secondary__icon {
-    overflow: visible !important;
+	overflow: visible !important;
 }
-/*******************/
-/*---[[[USERS]]]---*/
-/*******************/
 
-/*---[[[YOU]]]---*/
+
+/*#####[YOU]#####*/
 
 #chat .cm .msg .from.you .un {
-    color: #0bf !important;
+	color: #0bf !important;
 }
 
 
-/*---[[[BA]]]---*/
+/*#####[BA]#####*/
 
-.icon-chat-ambassador + span {
-    color: #9C0 !important;
+.icon-chat-ambassador+span {
+	color: #9C0 !important;
 }
 
 
-/*---[[[HOST]]]---*/
+/*#####[HOST]#####*/
 
 .icon-chat-host {
-    background: url("https://untuned.me/plug/host.png");
+	background: url("https://i.imgur.com/zIAEqAk.png");
 }
 
-.icon-chat-host + span,
+.icon-chat-host+span,
 #user-lists .group.host~.user span,
 #dialog-user-role .role-menu .menu ul .host span {
-    color: #db182e !important;
+	color: #db182e !important;
 }
 
 #user-lists .group.host {
-    color: #db182e;
-    background: linear-gradient(to right, hsla(360, 100%, 30%, 0.5), hsla(360, 100%, 40%, 0.5)) !important;
-    top: 1px;
+	color: #db182e;
+	background: linear-gradient(to right, hsla(360, 100%, 30%, 0.5), hsla(360, 100%, 40%, 0.5)) !important;
+	top: 1px;
 }
 
 
-/*---[[[CO-HOSTS]]]---*/
+/*#####[CO-HOSTS]#####*/
 
 .icon-chat-cohost {
-    background: url("https://untuned.me/plug/cohost.png");
+	background: url("https://i.imgur.com/zIAEqAk.png");
 }
 
-.icon-chat-cohost + span,
+.icon-chat-cohost+span,
 #dialog-user-role .dialog-body .role-menu .menu ul .cohost span {
-    color: #db182e !important;
+	color: #db182e !important;
 }
 
 
-/*---[[[MANAGERS]]]---*/
+/*#####[MANAGER]#####*/
 
 .icon-chat-manager {
-    background: url("https://untuned.me/plug/manager.png");
+	background: url("https://i.imgur.com/snaSrTN.png");
 }
 
-.icon-chat-manager + span,
+.icon-chat-manager+span,
 #user-lists .group.manager~.user span,
 #dialog-user-role .role-menu .menu ul .manager span {
-    color: #ab48c7 !important;
+	color: #ab48c7 !important;
 }
 
 #user-lists .group.manager {
-    color: #ab48c7;
-    background: linear-gradient(to right, hsla(287, 53%, 53%, 0.5), hsla(287, 53%, 53%, 0.5)) !important;
+	color: #ab48c7;
+	background: linear-gradient(to right, hsla(287, 53%, 53%, 0.5), hsla(287, 53%, 53%, 0.5)) !important;
 }
 
 
-/*---[[[BOUNCERS]]]---*/
+/*#####[BOUNCER]#####*/
 
 .icon-chat-bouncer {
-    background: url("https://untuned.me/plug/bouncer.png");
+	background: url("https://i.imgur.com/X4rU7r5.png");
 }
 
-.icon-chat-bouncer + span,
+.icon-chat-bouncer+span,
 #user-lists .group.bouncer~.user span,
 #dialog-user-role .role-menu .menu ul .bouncer span {
-    color: #5DB4FF !important;
+	color: #5DB4FF !important;
 }
 
 #user-lists .group.bouncer {
-    color: #5DB4FF;
-    background: linear-gradient(to right, hsla(208, 100%, 68%, 0.5), hsla(208, 100%, 68%, 0.5)) !important;
+	color: #5DB4FF;
+	background: linear-gradient(to right, hsla(208, 100%, 68%, 0.5), hsla(208, 100%, 68%, 0.5)) !important;
 }
 
 
-/*---[[[RESIDENT-DJS]]]---*/
+/*#####[DJ]#####*/
 
 .icon-chat-dj {
-    background: url("https://untuned.me/plug/rdj.png");
-    background-position: 0 0 !important;
+	background: url("https://i.imgur.com/HIUTGdj.png");
+	background-position: 0 0 !important;
 }
 
 #user-lists .group.dj {
-    color: #F7A452;
-    background: linear-gradient(to right, hsla(30, 91%, 65%, 0.5), hsla(30, 91%, 65%, 0.5)) !important;
+	color: #F7A452;
+	background: linear-gradient(to right, hsla(30, 91%, 65%, 0.5), hsla(30, 91%, 65%, 0.5)) !important;
 }
 
-.icon-chat-dj + span,
+.icon-chat-dj+span,
 #user-lists .group.dj~.user span,
 #dialog-user-role .role-menu .menu ul .dj span {
-    color: #F7A452 !important;
+	color: #F7A452 !important;
 }
 
 
-/*---[[[SUBSCRIBERS]]]---*/
+/*#####[SUBS]#####*/
 
-/*.icon-chat-subscriber,
+.icon-chat-subscriber,
 #user-rollover .meta.subscriber .status i {
-    background: url("https://i.imgur.com/MqlDbT7.png");
-}*/
+	background: url("https://i.imgur.com/MqlDbT7.png");
+}
 
 #user-rollover .meta .status i {
-    top: -2px !important;
-    left: 2px !important;
+	top: -2px !important;
+	left: 2px !important;
 }
 
 #user-lists .list {
-    top: 55px !important;
+	top: 55px !important;
 }
 
 #user-lists .group {
-    border: none !important;
-    box-shadow: 0 0 1px 1px;
+	border: none !important;
+	box-shadow: 0 0 1px 1px;
 }
 
 #user-lists .user:hover {
-    background: linear-gradient(hsla(220, 10%, 10%, 0.5), hsla(220, 10%, 12%, 0.5)) !important;
+	background: linear-gradient(hsla(220, 10%, 10%, 0.5), hsla(220, 10%, 12%, 0.5)) !important;
 }
 
 .right-side-wrapper #waitlist .list .user:hover {
-    background: linear-gradient(hsla(220, 10%, 10%, 0.5), hsla(220, 10%, 12%, 0.5)) !important;
+	background: linear-gradient(hsla(220, 10%, 10%, 0.5), hsla(220, 10%, 12%, 0.5)) !important;
 }
 
 #user-lists .list.staff .user:hover .name {
-    color: #eee !important;
+	color: #eee !important;
 }
 
 #user-lists .header {
-    height: 42px;
+	height: 42px;
 }
 
 #user-lists .list-header {
-    display: none;
+	display: none;
 }
 
 #user-lists .header .button {
-    top: 0px;
+	top: 0px;
 }
 
-/***************************/
-/*---[[[WELCOME-+-LOG]]]---*/
-/***************************/
+
+/*--[welcome & log]--*/
 
 #chat .cm.welcome {
-    color: hsl(210, 80%, 60%);
-    box-shadow: inset 0 0 0 1px hsl(210, 50%, 30%);
+	color: hsl(210, 80%, 60%);
+	box-shadow: inset 0 0 0 1px hsl(210, 50%, 30%);
 }
 
 #chat .log {
-    background: linear-gradient(hsla(220, 30%, 20%, 0.8), hsla(220, 30%, 15%, 0.8)), linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) !important;
-    box-shadow: inset 0 -1px 1px hsla(220, 30%, 10%, 0.8);
+	background: linear-gradient(hsla(220, 30%, 20%, 0.8), hsla(220, 30%, 15%, 0.8)), linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) !important;
+	box-shadow: inset 0 -1px 1px hsla(220, 30%, 10%, 0.8);
 }
 
 .cm strong {
-    color: #fff !important;
+	color: #fff !important;
 }
 
 .cm em {
-    color: #999 !important;
+	color: #999 !important;
 }
 
-/************************/
-/*---[[[MODERATION]]]---*/
-/************************/
+
+/*--[moderation]--*/
 
 #chat .cm.moderation {
-    background: linear-gradient(hsla(260, 50%, 25%, 0.8), hsla(260, 50%, 15%, 0.8)), linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) !important;
-    box-shadow: inset 0 0 0 1px hsl(260, 50%, 50%);
-    border: none !important;
+	background: linear-gradient(hsla(260, 50%, 25%, 0.8), hsla(260, 50%, 15%, 0.8)), linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) !important;
+	box-shadow: inset 0 0 0 1px hsl(260, 50%, 50%);
+	border: none !important;
 }
 
 #chat .cm.moderation .timestamp {
-    color: hsl(260, 70%, 70%);
+	color: hsl(260, 70%, 70%);
 }
 
-/*************************/
-/*---[[[USER-ACTION]]]---*/
-/*************************/
+
+/*--[user-action]--*/
 
 #chat .cm.user-action {
-    background: linear-gradient(hsla(60, 100%, 20%, 0.8), hsla(60, 100%, 10%, 0.8)), linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) !important;
-    box-shadow: inset 0 0 0 1px hsla(0, 0%, 100%, 0.1);
+	background: linear-gradient(hsla(60, 100%, 20%, 0.8), hsla(60, 100%, 10%, 0.8)), linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) !important;
+	box-shadow: inset 0 0 0 1px hsla(0, 0%, 100%, 0.1);
 }
 
 #chat .cm.user-action .msg .from .un,
 #chat .cm.user-action .timestamp {
-    color: hsl(60, 90%, 70%) !important;
+	color: hsl(60, 90%, 70%) !important;
 }
 
 #user-lists .header .button.staff.selected {
-    border-bottom: 1px solid #ac76ff !important;
+	border-bottom: 1px solid #ac76ff !important;
 }
 
 #user-lists .header .button.ignored.selected {
-    border-bottom: 1px solid #f04f30 !important;
+	border-bottom: 1px solid #f04f30 !important;
 }
 
-/***************************/
-/*---[[[USER-ROLLOVER]]]---*/
-/***************************/
+
+/*--[user-rollover]--*/
 
 #user-rollover {
-    background: linear-gradient(135deg, hsla(0, 0%, 20%, 0.6), hsla(0, 0%, 0%, 0.6));
-    box-shadow: 0 0 10px #000;
+	background: linear-gradient(135deg, hsla(0, 0%, 20%, 0.6), hsla(0, 0%, 0%, 0.6));
+	box-shadow: 0 0 10px #000;
 }
 
 #user-rollover .info {
-    background: linear-gradient(hsl(205, 100%, 40%, 0.5), hsl(205, 100%, 30%, 0.5));
-    box-shadow: 0px -2px 10px -1px #000;
+	background: linear-gradient(hsl(205, 100%, 40%, 0.5), hsl(205, 100%, 30%, 0.5));
+	box-shadow: 0px -2px 10px -1px #000;
 }
 
-#user-rollover .info i + span {
-    text-shadow: 0 0 5px #000;
+#user-rollover .info i+span {
+	text-shadow: 0 0 5px #000;
 }
 
 .thumb {
-    background: hsla(210, 10%, 10%, 0.4);
+	background: hsla(210, 10%, 10%, 0.4);
 }
 
 #user-rollover .info .badge-box,
@@ -933,304 +1017,276 @@ body {
 #video-only-dj .background,
 #search-suggestion,
 #search-suggestion ul {
-    background: rgba(0, 0, 0, 0);
+	background: rgba(0, 0, 0, 0);
 }
 
 .thumb.large,
 .thumb,
 #user-rollover .meta.online .thumb {
-    border-color: hsl(80, 70%, 50%) !important;
-    box-shadow: 0 0 7px hsl(80, 70%, 50%) !important;
+	border-color: hsl(80, 70%, 50%) !important;
+	box-shadow: 0 0 7px hsl(80, 70%, 50%) !important;
 }
 
 .thumb.large,
 #user-rollover .meta.online .thumb.large {
-    box-shadow: 0 0 15px hsl(80, 70%, 50%) !important;
+	box-shadow: 0 0 15px hsl(80, 70%, 50%) !important;
 }
 
 #user-rollover.is-staff .meta.online .thumb,
 #waitlist .is-staff .thumb {
-    border-color: hsl(270, 50%, 50%) !important;
-    box-shadow: 0 0 7px hsl(270, 50%, 50%) !important;
+	border-color: hsl(270, 50%, 50%) !important;
+	box-shadow: 0 0 7px hsl(270, 50%, 50%) !important;
 }
 
 #user-rollover.is-staff .meta.online .thumb.large {
-    box-shadow: 0 0 15px hsl(270, 50%, 50%) !important;
+	box-shadow: 0 0 15px hsl(270, 50%, 50%) !important;
 }
 
 #user-rollover .meta.subscriber .thumb,
 #waitlist .is-subscriber .thumb {
-    border-color: hsl(45, 80%, 45%) !important;
-    box-shadow: 0 0 7px hsl(45, 80%, 45%) !important;
+	border-color: hsl(45, 80%, 45%) !important;
+	box-shadow: 0 0 7px hsl(45, 80%, 45%) !important;
 }
 
 #user-rollover .meta.subscriber .thumb.large {
-    box-shadow: 0 0 15px hsl(45, 80%, 45%) !important;
+	box-shadow: 0 0 15px hsl(45, 80%, 45%) !important;
 }
 
 #user-rollover .meta.online .status i {
-    display: none;
+	display: none;
 }
 
 #user-rollover .meta.online .status span {
-    color: hsl(80, 70%, 50%);
-    margin-left: 0;
+	color: hsl(80, 70%, 50%);
+	margin-left: 0;
 }
 
 #user-rollover .meta.offline .status i {
-    top: 0px !important;
+	top: 0px !important;
 }
 
 .offline .thumb {
-    border-color: hsl(0, 0%, 40%) !important;
-    box-shadow: none !important;
+	border-color: hsl(0, 0%, 40%) !important;
+	box-shadow: none !important;
 }
 
 #user-rollover .action {
-    background: radial-gradient(hsla(0, 0%, 7%, 0.8), hsla(0, 0%, 0%, 0.8)) !important;
-    box-shadow: 0 0 2px 1px #151515 !important;
+	background: radial-gradient(hsla(0, 0%, 7%, 0.8), hsla(0, 0%, 0%, 0.8)) !important;
+	box-shadow: 0 0 2px 1px #151515 !important;
 }
 
 #user-rollover .action:hover {
-    background: radial-gradient(hsla(210, 100%, 30%, 0.9), hsla(210, 100%, 20%, 0.9)) !important;
-    box-shadow: inset 0 0 50px #000 !important;
+	background: radial-gradient(hsla(210, 100%, 30%, 0.9), hsla(210, 100%, 20%, 0.9)) !important;
+	box-shadow: inset 0 0 50px #000 !important;
 }
 
 .signed-in .community__top-right .btn-subscribe {
-    display: none !important;
+	display: none !important;
 }
 
 .user-content.profile .meta {
-    margin-top: 60px !important;
+	margin-top: 60px !important;
 }
 
 .user-level-dropdown__level-text {
-    color: #00c6ff !important;
+	color: #00c6ff !important;
 }
 
 .user-level-dropdown__level-number .fa,
 .user-level-dropdown__progress .progress .progress-bar,
 .btn-level {
-    background-color: #00c6ff !important;
-    color: #fff;
+	background-color: #00c6ff !important;
+	color: #fff;
 }
 
 .btn-level {
-    color: #fff
+	color: #fff
 }
 
 .user-level-dropdown .user-name {
-    font-weight: 500;
+	font-weight: 500;
 }
 
 @media (min-width: 576px) {
-    .community__right-bar,
-    #user-lists,
-    #waitlist,
-    .community .friends,
-    #rcs-menu {
-        height: 93.2% !important;
-    }
+	.community__right-bar,
+	#user-lists,
+	#waitlist,
+	.community .friends,
+	#rcs-menu {
+		height: 93.2% !important;
+	}
 }
 
 @media (min-width: 980px) {
-    .community__right-bar,
-    #user-lists,
-    #waitlist,
-    .community .friends,
-    #rcs-menu {
-        height: 93.2% !important;
-    }
+	.community__right-bar,
+	#user-lists,
+	#waitlist,
+	.community .friends,
+	#rcs-menu {
+		height: 93.2% !important;
+	}
 }
 
 @media (min-width: 1200px) {
-    .community__right-bar,
-    #user-lists,
-    #waitlist,
-    .community .friends,
-    #rcs-menu {
-        height: 91.33% !important;
-    }
+	.community__right-bar,
+	#user-lists,
+	#waitlist,
+	.community .friends,
+	#rcs-menu {
+		height: 91.33% !important;
+	}
 }
 
 @media (min-width: 1600px) {
-    .community__right-bar,
-    #user-lists,
-    #waitlist,
-    .community .friends,
-    #rcs-menu {
-        height: 92.33% !important;
-    }
+	.community__right-bar,
+	#user-lists,
+	#waitlist,
+	.community .friends,
+	#rcs-menu {
+		height: 92.33% !important;
+	}
 }
 
 @media (min-width: 1800px) {
-    .community__right-bar,
-    #user-lists,
-    #waitlist,
-    .community .friends,
-    #rcs-menu {
-        height: 93.7% !important;
-    }
+	.community__right-bar,
+	#user-lists,
+	#waitlist,
+	.community .friends,
+	#rcs-menu {
+		height: 93.7% !important;
+	}
 }
 
 @media (min-width: 1920px) {
-    .community__right-bar,
-    #user-lists,
-    #waitlist,
-    .community .friends,
-    #rcs-menu {
-        height: 93.7% !important;
-    }
+	.community__right-bar,
+	#user-lists,
+	#waitlist,
+	.community .friends,
+	#rcs-menu {
+		height: 93.7% !important;
+	}
 }
 
 @media (min-width: 992px) {
-    .community__bottom {
-        width: 100%;
-    }
+	.community__bottom {
+		width: 100%;
+	}
 }
 
 #rs-toggle-sidebar {
-    display: none !important;
+	display: none !important;
 }
 
 @media (min-width: 768px) {
-    [data-view=room] .bottom__playback-meta {
-        width: 30%;
-    }
+	[data-view=room] .bottom__playback-meta {
+		width: 30%;
+	}
 }
 
 .friends .jspContainer {
-    height: 730px !important;
+	height: 730px !important;
 }
 
 @media (min-width: 1200px) {
-    .friends .jspContainer {
-        height: 465px !important;
-    }
+	.friends .jspContainer {
+		height: 465px !important;
+	}
 }
 
 @media (min-width: 1600px) {
-    .friends .jspContainer {
-        height: 554px !important;
-    }
+	.friends .jspContainer {
+		height: 554px !important;
+	}
 }
 
 @media (min-width: 1800px) {
-    .friends .jspContainer {
-        height: 730px !important;
-    }
+	.friends .jspContainer {
+		height: 730px !important;
+	}
 }
 
 @media (min-width: 1920px) {
-    .friends .jspContainer {
-        height: 730px !important;
-    }
+	.friends .jspContainer {
+		height: 730px !important;
+	}
 }
 
 .rs-skip-button {
-    margin-left: 0px !important;
+	margin-left: 0px !important;
 }
 
 [data-theme] .left-side-wrapper .left-side-wrapper-inner {
-    background-image: url("https://i.imgur.com/WK1lRBo.png") !important;
+	background-image: url("https://i.imgur.com/WK1lRBo.png") !important;
 }
 
 .rsrow:hover {
-    background: linear-gradient(hsla(220, 10%, 10%, 0.5), hsla(220, 10%, 12%, 0.5)) !important;
+	background: linear-gradient(hsla(220, 10%, 10%, 0.5), hsla(220, 10%, 12%, 0.5)) !important;
 }
 
 #waitlist-button .count {
-    color: #eee !important;
+	color: #eee !important;
 }
 
-.share-song-item.share-facebook {
-    color: #3b5998 !important;
+#user-menu .item i {
+	color: #eee !important;
+	opacity: 1 !important;
 }
 
-.share-song-item.share-twitter {
-    color: #1da1f2 !important;
+#user-view .user-content .tab-menu button.selected,
+#user-view .user-content .tab-menu button {
+	border: none !important;
+}
+
+.share-song-item.share-facebook,
+.share-room-item.share-facebook {
+	color: #3b5998 !important;
+}
+
+.share-song-item.share-twitter,
+.share-room-item.share-twitter {
+	color: #1da1f2 !important;
 }
 
 .share-song-item.share-facebook:hover,
 .share-song-item.share-twitter:hover {
-    color: #eee !important;
+	color: #eee !important;
 }
 
-#user-rollover.id-29949924 .username,
-#chat [data-cid^="29949924-"] span.un.clickable {
-    color: #FFF;
+.description.panel .value a[href*=".json"] {
+	display: none;
 }
 
-/***************************/
-/*---[[[MISCELLANEOUS]]]---*/
-/***************************/
+/* untuned */
 
-/*---[[[CLANNAD-(BA)-ROLE-FIX]]]---*/
-
-#user-rollover.id-4701536 > .info > .role span {
-    text-indent: -9999px;
-    line-height: 0;
+#user-rollover.id-4224900>.info>.role span {
+	text-indent: -9999px;
+	line-height: 0;
 }
 
-#user-rollover.id-4701536 > .info > .role span:after {
-    text-indent: 0;
-    content: 'Manager';
-    display: block;
-    line-height: initial;
-    color: #AB48C6;
+#user-rollover.id-4224900>.info>.role span:after {
+	text-indent: 0;
+	content: 'Host';
+	display: block;
+	line-height: initial;
+	color: #db182e;
 }
 
-#user-rollover.id-4701536 > .info > .role:hover span:after {
-    text-indent: 0;
-    content: 'Brand Ambassador';
-    display: block;
-    line-height: initial;
-    color: #89be6c;
+#user-rollover.id-4224900>.info>.role:hover span:after {
+	text-indent: 0;
+	content: 'Promoter';
+	display: block;
+	line-height: initial;
+	color: #48be9e;
 }
 
-#user-rollover.id-4701536 > .info > .role .icon { 
-    background: url("https://untuned.me/plug/manager.png") !important; 
+#user-rollover.id-4224900>.info>.role .icon {
+	background: url("https://untuned.us/plug/host.png") !important;
 }
 
-#user-rollover.id-4701536 > .info > .role:hover .icon { 
-    background: url("https://untuned.me/plug/ambassador.png") !important; 
+#user-rollover.id-4224900>.info>.role:hover .icon {
+	background: url("https://untuned.us/plug/promoter.png") !important;
 }
 
-#user-lists .list.room .user.id-4701536 .icon-chat-ambassador {
-    background: url("https://untuned.me/plug/manager.png") !important;
-}
-
-/*---[[[UNTUNED-(PROMOTER)-ROLE-FIX]]]---*/
-
-#user-rollover.id-4224900 > .info > .role span {
-    text-indent: -9999px;
-    line-height: 0;
-}
-
-#user-rollover.id-4224900 > .info > .role span:after {
-    text-indent: 0;
-    content: 'Host';
-    display: block;
-    line-height: initial;
-    color: #db182e;
-}
-
-#user-rollover.id-4224900 > .info > .role:hover span:after {
-    text-indent: 0;
-    content: 'Promoter';
-    display: block;
-    line-height: initial;
-    color: #1abc9c;
-}
-
-#user-rollover.id-4224900 > .info > .role .icon { 
-    background: url("https://untuned.me/plug/host.png") !important; 
-}
-
-#user-rollover.id-4224900 > .info > .role:hover .icon { 
-    background: url("https://untuned.me/plug/promoter.png") !important; 
-}
-
-#user-lists .list.room .user.id-4224900 .icon-chat-promoter {
-    background: url("https://untuned.me/plug/host.png") !important;
+.user.id-4224900 .icon-chat-promoter {
+	background: url("https://untuned.us/plug/host.png") !important;
 }
