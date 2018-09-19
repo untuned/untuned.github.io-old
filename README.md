@@ -1,2 +1,2 @@
 # untuned.github.io
-https://untuned.me/
+https://untuned.us/
