@@ -12,26 +12,50 @@ limitations under the License.
 mod by marcrobledo, original from: https://github.com/GoogleChrome/samples/blob/gh-pages/service-worker/basic/service-worker.js
 */
 
-const PRECACHE_ID='v20180611';
-const PRECACHE_FILES=[
-'index.html','./',
-'help.html',
-'data/acnl_editor.css',
-'data/acnl_editor.js',
-'data/acnl_editor_logo.png',
-'data/acnl_editor_sprites.png',
-'data/checksum.js',
-'data/data-types.js',
-'data/patterns.js',
-'data/acnl_items.js',
-'data/acres.png',
-'data/favicon.png',
-'data/no_tpc.png',
-'data/NotoSans.woff2',
-'data/NotoSansBold.woff2',
-'data/NotoSansItalic.woff2',
-'data/villagers.jpg'
+const PRECACHE_ID = 'v20180611';
+const PRECACHE_FILES = [
+  'index.html', './',
+  'help.html',
+  'data/acnl_editor.css',
+  'data/acnl_editor.js',
+  'data/acnl_editor_logo.png',
+  'data/acnl_editor_sprites.png',
+  'data/checksum.js',
+  'data/data-types.js',
+  'data/patterns.js',
+  'data/acnl_items.js',
+  'data/acres.png',
+  'data/favicon.png',
+  'data/no_tpc.png',
+  'data/NotoSans.woff2',
+  'data/NotoSansBold.woff2',
+  'data/NotoSansItalic.woff2',
+  'data/villagers.jpg'
 ];
 
 
-self.addEventListener('install',event=>{event.waitUntil(caches.open(PRECACHE_ID).then(cache=>cache.addAll(PRECACHE_FILES)).then(self.skipWaiting()))});self.addEventListener('activate',event=>{const currentCaches=[PRECACHE_ID,'runtime'];event.waitUntil(caches.keys().then(cacheNames=>{return cacheNames.filter(cacheName=>!currentCaches.includes(cacheName));}).then(cachesToDelete=>{return Promise.all(cachesToDelete.map(cacheToDelete=>{return caches.delete(cacheToDelete);}))}).then(()=>self.clients.claim()))});self.addEventListener('fetch',event=>{if(event.request.url.startsWith(self.location.origin))event.respondWith(caches.match(event.request).then(cachedResponse=>{if(cachedResponse)return cachedResponse;return caches.open('runtime').then(cache=>{return fetch(event.request).then(response=>{return cache.put(event.request,response.clone()).then(()=>{return response})})})}))})
+self.addEventListener('install', event => {
+  event.waitUntil(caches.open(PRECACHE_ID).then(cache => cache.addAll(PRECACHE_FILES)).then(self.skipWaiting()))
+});
+self.addEventListener('activate', event => {
+  const currentCaches = [PRECACHE_ID, 'runtime'];
+  event.waitUntil(caches.keys().then(cacheNames => {
+    return cacheNames.filter(cacheName => !currentCaches.includes(cacheName));
+  }).then(cachesToDelete => {
+    return Promise.all(cachesToDelete.map(cacheToDelete => {
+      return caches.delete(cacheToDelete);
+    }))
+  }).then(() => self.clients.claim()))
+});
+self.addEventListener('fetch', event => {
+  if (event.request.url.startsWith(self.location.origin)) event.respondWith(caches.match(event.request).then(cachedResponse => {
+    if (cachedResponse) return cachedResponse;
+    return caches.open('runtime').then(cache => {
+      return fetch(event.request).then(response => {
+        return cache.put(event.request, response.clone()).then(() => {
+          return response
+        })
+      })
+    })
+  }))
+})

@@ -1,46 +1,38 @@
 /************************/
 /* VIP text in rollover */
 /************************/
-
-
 /* Isebella 6464162 */
 #user-rollover.id-6464162 .info .role span {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 /* Darryan(ĐⱧ101) 15684973 */
 #user-rollover.id-15684973 .info .role span {
-    visibility: hidden;
+  visibility: hidden;
 }
 
-
 /**********************/
-
-
 /* Isebella 6464162 */
 #user-rollover.id-6464162 .info .role span:after {
-    visibility: visible;
-    content: 'VIP';
+  visibility: visible;
+  content: 'VIP';
 }
 
 /* Darryan(ĐⱧ101) 15684973 */
 #user-rollover.id-15684973 .info .role span:after {
-    visibility: visible;
-    content: 'VIP';
+  visibility: visible;
+  content: 'VIP';
 }
-
 
 /************/
 /* VIP Icon */
 /************/
-
-
 /* Isebella 6464162 */
 .id-6464162 .msg .from i.icon-chat-dj,
 #waitlist .list .user[data-uid="6464162"] .meta.is-staff .name .icon-chat-dj,
 #user-rollover.id-6464162 .info .role i.icon-chat-dj,
 #user-lists .list.room .user.id-6464162 .icon-chat-dj {
-    background: url("https://untuned.me/plug/vip.png") no-repeat !important;
+  background: url("https://untuned.me/plug/vip.png") no-repeat !important;
 }
 
 /* Darryan(ĐⱧ101) 15684973 */
@@ -48,40 +40,34 @@
 #waitlist .list .user[data-uid="15684973"] .meta.is-staff .name .icon-chat-dj,
 #user-rollover.id-15684973 .info .role i.icon-chat-dj,
 #user-lists .list.room .user.id-15684973 .icon-chat-dj {
-    background: url("https://untuned.me/plug/vip.png") no-repeat !important;
+  background: url("https://untuned.me/plug/vip.png") no-repeat !important;
 }
-
 
 /******************************/
 /* VIP Icon User Rollover Fix */
 /******************************/
-
-
 /* Isebella 6464162 */
 #user-rollover.id-6464162 .info .role i.icon-chat.dj {
-    position: absolute;
-    margin-left: -40px;
+  position: absolute;
+  margin-left: -40px;
 }
 
 /* Darryan(ĐⱧ101) 15684973 */
 #user-rollover.id-15684973 .info .role i.icon-chat.dj {
-    position: absolute;
-    margin-left: -40px;
+  position: absolute;
+  margin-left: -40px;
 }
-
 
 /*************/
 /* VIP Color */
 /*************/
-
-
 /* Isebella 6464162 */
 .id-6464162 .msg .from.dj .un,
 #waitlist .list .user[data-uid="6464162"] .meta.is-staff .name .icon-chat-dj+span,
 #user-rollover.id-6464162 .info .role span,
 #user-rollover.id-6464162 .meta .username,
 #user-lists .list.room .user.id-6464162 .name {
-    color: #2cc4d1 !important;
+  color: #2cc4d1 !important;
 }
 
 /* Darryan(ĐⱧ101) 15684973 */
@@ -90,21 +76,18 @@
 #user-rollover.id-15684973 .info .role span,
 #user-rollover.id-15684973 .meta .username,
 #user-lists .list.room .user.id-15684973 .name {
-    color: #2cc4d1 !important;
+  color: #2cc4d1 !important;
 }
-
 
 /**************/
 /* VIP Inline */
 /**************/
-
-
 /* Isebella 6464162 */
 .emote.id-6464162 .text {
-    color: #2cc4d1 !important;
+  color: #2cc4d1 !important;
 }
 
 /* Darryan(ĐⱧ101) 15684973 */
 .emote.id-15684973 .text {
-    color: #2cc4d1 !important;
+  color: #2cc4d1 !important;
 }
