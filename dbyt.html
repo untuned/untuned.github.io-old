@@ -24,15 +24,15 @@
     var volume = 50;
     var volEvent = false;
     var volmeEvent = null;
+    var ip = "ec2-18-220-14-162.us-east-2.compute.amazonaws.com";
 
     function connectSocketServer() {
         var support = "MozWebSocket" in window ? 'MozWebSocket' : ("WebSocket" in window ? 'WebSocket' : null);
         //var ip = getParameterByName("ip");
-        var ip = "18.220.14.162";
         //if (ip == "")
-        ws = new window[support]('ws://18.220.14.162:3337/');
+        //    ws = new window[support]('ws://18.220.14.162:3337/');
         //else
-        //    ws = new window[support]('ws://' + ip + ':3337/');
+        ws = new window[support]('ws://' + ip + ':3337/');
         // create a new websocket and connect
         // when data is comming from the server, this metod is called
         ws.onmessage = function(evt) {
