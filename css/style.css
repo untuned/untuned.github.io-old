@@ -1,4 +1,5 @@
 body {
 	background-image: url("https://untuned.us/img/background.jpg");
+	background-size: cover;
 	color: white;
 }
